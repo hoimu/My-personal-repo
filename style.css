@@ -1,11 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin-left: 70px;
+    margin: 0;
     margin-top: 40px;
 }
 
 h1{
-    font-size: 40px;
+    font-size: 37px;
+   padding: 0;
+   margin: 0;
 }
 h2{
     font-size: 40px;
@@ -17,6 +19,7 @@ p{
 
 .flexible-area{
     display: flex;
+    margin-left: 70px;
 }
 .half-width{
     width: 50%;
@@ -40,6 +43,9 @@ p{
   font-family: none;
   border-radius: 3px;
 }
+
+
+
 span{
     color: rgb(107, 42, 192);
 }
@@ -47,8 +53,10 @@ span{
     padding-left: 300px;
      margin-top: 100px;
 }
+
 .flex-area{
     display: flex;
+    margin-left: 70px;
 }
 .one-third{
     width: 30%;
@@ -66,11 +74,91 @@ span{
 #left-area{
    background-image: linear-gradient(rgb(236, 169, 236),rgb(236, 204, 236));
    padding-bottom: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
 
 }
 #center-area{
     background-image:linear-gradient(rgb(168, 223, 217),rgb(198, 235, 230));
+    padding-left: 25px;
+   padding-right: 25px;
 }
 #right-area{
     background-image: linear-gradient(rgb(146, 230, 146),rgb(185, 233, 185));
+    padding-left: 25px;
+   padding-right: 25px;
+}
+.box-area{
+     margin-left: -40px;
+
+}
+
+.third-flex{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 100px;
+     
+}
+
+    
+
+.background-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 150px;
+   background-repeat: no-repeat;
+   background-position: left;
+   margin-left: -30px;
+   margin-left: 50px;
+}
+.half-width3{
+    width: 60%;
+    margin-right: 35px;
+   padding-top: 80px;
+}
+.half-width2{
+    width: 40%;
+}
+.half-width2 img{
+    width: 85%;
+    
+}
+.third-flex2{
+    display: flex;
+    padding-left: 50px; 
+}
+.third-flex2 img{
+    height: 500px;
+}
+
+    
+
+.background-img2{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 150px;
+   background-repeat: no-repeat;
+   background-position: right bottom;
+   padding-bottom: 50px;
+   margin-left: 50px;
+
+}
+.footer-area{
+   
+  
+    background-color: black;
+    color: white;
+}
+.footer-area h3{
+    padding-top: 15px;
+    text-align: center;
+    font-family:none;
+    font-size: 30px;
+}
+.footer-area p{
+    padding-bottom: 15px;
+    color: white;
+    font-family:none;
+    text-align: center;
+}
+.footer-area span{
+    color: rgb(92, 92, 226);
 }
