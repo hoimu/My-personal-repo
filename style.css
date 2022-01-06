@@ -15,7 +15,7 @@ p{
     color: rgb(44, 35, 35);
 }
 
-section{
+.flexible-area{
     display: flex;
 }
 .half-width{
@@ -39,4 +39,38 @@ section{
   padding-left: 7px;
   font-family: none;
   border-radius: 3px;
+}
+span{
+    color: rgb(107, 42, 192);
+}
+.added-margin{
+    padding-left: 300px;
+     margin-top: 100px;
+}
+.flex-area{
+    display: flex;
+}
+.one-third{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.one-third img{
+    width: 40%;
+   
+}
+#left-area{
+   background-image: linear-gradient(rgb(236, 169, 236),rgb(236, 204, 236));
+   padding-bottom: 50px;
+
+}
+#center-area{
+    background-image:linear-gradient(rgb(168, 223, 217),rgb(198, 235, 230));
+}
+#right-area{
+    background-image: linear-gradient(rgb(146, 230, 146),rgb(185, 233, 185));
 }
